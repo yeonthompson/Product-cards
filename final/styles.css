@@ -120,25 +120,26 @@ footer p.faded {
   line-height: 1.5;
 }
 
-.container {
-    text-align: center;
-    padding-top: 10%;
+.flex-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
 }
 
 .card_container1 {
-    display: inline-block;
-    position: relative;
-    width: 30%;
+  display: inline-block;
+  position: relative;
+  width: 30%;
 }
   
-  .card_container2 {
-    display: inline-block;
-    position: relative;
-    width: 30%;
+.card_container2 {
+  display: inline-block;
+  position: relative;
+  width: 30%;
 }
   
-  .card_container3 {
-    display: inline-block;
-    position: relative;
-    width: 30%;
+.card_container3 {
+  display: inline-block;
+  position: relative;
+  width: 30%;
 }
